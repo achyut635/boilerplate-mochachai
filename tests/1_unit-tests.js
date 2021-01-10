@@ -5,8 +5,8 @@ suite('Unit Tests', function () {
   suite('Basic Assertions', function () {
     // #1
     test('#isNull, #isNotNull', function () {
-      assertisNotNull.fail(null, 'this is an optional error description - e.g. null is null');
-      assertisNull.fail(1, '1 is not null');
+      assertisNull.fail(null, 'this is an optional error description - e.g. null is null');
+      assertisNotNull.fail(1, '1 is not null');
     });
     // #2
     test('#isDefined, #isUndefined', function () {
